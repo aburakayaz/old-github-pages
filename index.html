@@ -1,7 +1,90 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/aburakayaz.min.css" rel="stylesheet">
+    <title>A Burak Ayaz</title>
+
+</head>
 <body>
-<h1>Burak Ayaz</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<main>
+    <div id="line-numbers">
+    </div>
+    <div id="content">
+        <div class="line"><span class="keyword">import</span>
+            com.sabanciuniv.edu.ComputerScienceAndEngineering.Student;
+        </div>
+        <div class="line"><span class="keyword">import</span>
+            entities.Human;
+        </div>
+        <br>
+        <div class="line">
+            <span class="keyword">public class</span> BurakAyaz
+            <span class="keyword">extends</span> Human {
+        </div>
+        <div class="tab">
+            <div class="line">
+                <span class="keyword">private static</span>
+                BurakAyaz <span class="field static">me</span>
+                = <span class="keyword">new</span>
+                BurakAyaz()<span class="keyword">;</span>
+            </div>
+            <br>
+            <div class="line">
+                <span class="keyword">private </span>
+                Student <span class="field static">student</span><span class="keyword">;</span>
+            </div>
+            <br>
+            <div class="line">
+            <span class="keyword">public static</span>
+            BurakAyaz <span class="method-declaration">getInstance()</span> {
+        </div>
+            <div class="line tab">
+                <span class="keyword">return</span>
+                <span class="field">me</span><span class="keyword">;</span>
+            </div>
+            <div class="line">}</div>
+            <br>
+            <div class="line">
+                <span class="keyword">private</span>
+                <span class="method-declaration">BurakAyaz()</span> {
+            </div>
+            <div class="tab">
+                <div class="line">
+                    <span class="field">name</span> =
+                    <span class="string">"Adnan Burak Ayaz"</span><span class="keyword">;</span>
+                </div>
+                <div class="line">
+                    <span class="field">birthday</span> =
+                    <span class="string">"09-16-1996"</span><span class="keyword">;</span>
+                </div>
+                <div class="line">
+                    <span class="field">phoneNumber</span> =
+                    <span class="string">"+90-541-8595"</span><span class="keyword">;</span>
+                </div>
+                <div class="line">
+                    <span class="field">eMail</span> =
+                    <span class="string">"bayaz@sabanciuniv.edu"</span><span class="keyword">;</span>
+                </div>
+                <br>
+                <div class="line">
+                    <span class="field">student</span> =
+                    <span class="keyword">new</span>
+                    Student(<span class="keyword">this</span>)<span class="keyword">;</span>
+                </div>
+                <div class="line">
+                    <span class="field">student</span>.setYear(<span class="string">"Junior"</span>)<span class="keyword">;</span>
+                </div>
+            </div>
+            <div class="line">}</div>
+        </div>
+        <div class="line">}</div>
+    </div>
+</main>
+<script src="js/aburakayaz.min.js">
+</script>
 </body>
 </html>

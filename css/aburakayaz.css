@@ -1,0 +1,57 @@
+body {
+  font-family: 'DialogInput', monospace;
+  background-color: #2B2B2B;
+  color: #A9B7C6;
+  margin: 0;
+  height: 100vh; }
+
+main {
+  display: flex;
+  box-sizing: border-box;
+  flex-flow: row nowrap;
+  height: 100%; }
+
+#line-numbers {
+  order: 1;
+  width: 3em;
+  box-sizing: border-box;
+  height: 100%;
+  border-right: 1px solid #A9B7C6; }
+
+#content {
+  order: 2;
+  height: 100%;
+  padding-left: 0.6em; }
+
+.line-number {
+  text-align: right;
+  margin-right: 0.7em; }
+
+.line {
+  display: block; }
+
+.multi-line-comment {
+  color: #619647; }
+
+.comment {
+  color: #808080; }
+
+.string {
+  color: #A5C25C; }
+
+.keyword {
+  color: #CB772F; }
+
+.field {
+  color: #9876AA; }
+
+.method-declaration {
+  color: #FFC66D; }
+
+.tab {
+  margin-left: 2.2em; }
+
+.static {
+  font-style: italic; }
+
+/*# sourceMappingURL=aburakayaz.css.map */
