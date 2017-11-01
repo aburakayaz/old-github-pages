@@ -1,7 +1,7 @@
 // Creating line numbers
 var i, j;
 
-for (i = 1; i <= 22; i++) {
+for (i = 1; i <= 27; i++) {
     var lineNum = document.createElement('div');
     lineNum.className = 'line-number';
     lineNum.innerText = i;
